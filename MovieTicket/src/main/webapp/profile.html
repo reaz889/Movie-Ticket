@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search User</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .header {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin: 15px 0;
+        }
+        .form-group input {
+            padding: 10px;
+            font-size: 18px;
+            width: 80%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-group button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">Show Profile</div>
+    <form action="profile.jsp" method="post">
+        <div class="form-group">
+            <input type="text" name="phone_number" placeholder="Enter Mobile Number" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Show</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

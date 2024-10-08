@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(76, 175, 80, 0.8); 
+    padding: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s; 
+    padding: 0.5em 1em; 
+    border-radius: 5px; 
+    margin: 0 0.5em; 
+    background-color: #4CAF50; 
+}
+
+header a:hover {
+    background-color: #FFD700; 
+    transform: scale(1.1); 
+}
+
+.container {
+    text-align: center;
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 1em;
+    border-radius: 10px; 
+}
+
+.ticket-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+.ticket-grade {
+    background-color: #FFFACD;
+    padding: 1em;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-grade h2 {
+    color: #FF4500;
+}
+
+.ticket-grade p {
+    text-align: left;
+}

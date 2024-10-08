@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('background.jpg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(76, 175, 80, 0.8); /* Add some transparency */
+    padding: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s; /* Add transition effects */
+    padding: 0.5em 1em; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 0.5em; /* Space between buttons */
+    background-color: #4CAF50; /* Button background color */
+}
+
+header a:hover {
+    background-color: #FFD700; /* Hover color */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a slight background color */
+    padding: 2em;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 60%; /* Adjust width as needed */
+    margin: 2em auto; /* Center the container */
+}
+
+.user-login, .admin-login {
+    width: 45%; /* Adjust width as needed */
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #FF4500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Ensure input fields take the full width */
+}
+
+button {
+    padding: 0.7em;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 1em; /* Add some space below the button */
+    width: 100%; /* Ensure button takes the full width */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
